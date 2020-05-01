@@ -10,7 +10,7 @@
 body{
 	color: #fff;
 	padding: 10px;
-	font-size: 3em;
+	font-size: 2em;
 	background-color: #000;
 }
 .main{
@@ -24,7 +24,7 @@ body{
 }
 .yeah{
 	margin: 2px;
-	width: 150px;
+	width: 100px;
 	padding: 2px;
 	font-size: 2em;
 }
