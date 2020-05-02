@@ -14,11 +14,9 @@ body{
 	background-color: #000;
 }
 .main{
-	top: 35%;
-	left: 15%;
-	position: fixed;
+	height: auto;
 	display: flex;
-	text-align: center;
+	margin-top: 30%;
 	align-items: center;
 	justify-content: center;
 }
