@@ -9,6 +9,9 @@ function yeah(argument) {
 			alert("ERROU!");
 		}
 		resetar();
+	}else{
+		alert("Preencha o campo")
+		resetar();
 	}
 }	
 function resetar() {
