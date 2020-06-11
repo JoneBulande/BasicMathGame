@@ -1,47 +1,101 @@
+/********************************************/
+/*| reset  |*/
+/********************************************/
 *{
 	margin: 0;
 	padding: 0;
+	color: #fff;
 	border: none;
 	outline: none;
 	font-size: 100%;
 	font-family: Arial;
 	box-sizing: border-box;
-}
-body{
-	color: #fff;
-	padding: 10px;
-	font-size: 2em;
 	background-color: #000;
 }
-.meio{
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	font-size: 2em;
+	border-bottom: 4px solid #124;
+	justify-content: space-between;
+}
+/********************************************/
+/*| container  |*/
+/********************************************/
+.container{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	min-height: 90vh;
+	max-width: 500px;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+
+}
+/********************************************/
+/*| item |*/
+/********************************************/
+.item{
+	margin: 5px;
+	width: 180px;
+	height: 180px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #ddd;
+	
+}
+.item a{
+	padding: 50px;
+	font-size: 4em;
+	display: block;
+	cursor: pointer;
+	font-weight: 700;
+	transition: background 0.5s;
+}
+.item a:hover{
+	color: #fff;
+	background-color: #124;
+}
+/********************************************/
+/*| container 2  |*/
+/********************************************/
+.container2{
 	width: 100%;
 	display: flex;
-	height: 90vh;
+	min-height: 90vh;
 	align-items: center;
 	justify-content: center;
 }
 .yeah{
-	margin: 1px;
-	width: 140px;
-	padding: 2px;
-	font-size: 4em;
+	margin: 0 10px;
+	font-size: 8em;
 }
 input{
-	color: #fff;
 	width: 200px;
-	padding: 2px;
-	font-size: 4em;
-	background-color: #000;
-	border-bottom: 2px solid #fff;
-}
-input:hover{
-	border-color: #ccc;
+	text-align: center;
+	border-bottom: 1px solid #fff;
 }
 button{
-	color: #fff;
 	cursor: pointer;
-	background-color: #000;
 }
-button:hover{
-	color: #ccc;
+
+@media screen and (max-width: 650px){
+	.container{
+		max-width: 800px;
+		background-color: red;
+	}
+	.item{
+		width: 540px;
+		height: 240px;
+		text-align: center;
+	}
+	.item a{
+		font-size: 6em;
+	}
 }
