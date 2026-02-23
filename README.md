@@ -12,6 +12,10 @@
 
 </div>
 
+<p align="center">
+  <img alt="MathRush Banner" src="./images/mockup.png" width="100%">
+</p>
+
 ---
 
 ## 📖 Sobre o projeto
